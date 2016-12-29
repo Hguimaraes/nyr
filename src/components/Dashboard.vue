@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="row">
-    <div class="card small col s12 m4">
+    <div class="card small col l3 s4 m4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/books.svg">
       </div>
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="card small col s12 m4">
+    <div class="card small col l3 s4 m4 offset-l1">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/fitness.svg">
       </div>
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="card small col s12 m4">
+    <div class="card small col l3 s4 m4 offset-l1">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/arts.svg">
       </div>
@@ -44,7 +44,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="card small col s12 m4">
+    <div class="card small col l3 s4 m4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/education.svg">
       </div>
@@ -58,7 +58,7 @@
       </div>
     </div>
 
-    <div class="card small col s12 m4">
+    <div class="card small col l3 s4 m4 offset-l1">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/experience.svg">
       </div>
@@ -72,7 +72,7 @@
       </div>
     </div>
 
-    <div class="card small col s12 m4">
+    <div class="card small col l3 s4 m4 offset-l1">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/others.svg">
       </div>
@@ -88,6 +88,8 @@
   </div>
 </div>
 </template>
-<style>
-
+<style lang="sass">
+.card {
+  padding:100px;
+}
 </style>
