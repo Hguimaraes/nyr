@@ -2,7 +2,7 @@
   <div>
     <nav class="white">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo center"></a>
+        <a href="#" class="brand-logo center"><img class="responsive-img" id="logo" src="imgs/logo.png" /></a>
       </div>
     </nav>
     <div class="container">
@@ -22,6 +22,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="sass">
+  .responsive-img{
+    vertical-align: middle;
+  }
 </style>

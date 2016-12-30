@@ -1,13 +1,15 @@
 <template>
-<div>
-  <div class="row">
-    <div class="card small col l3 s4 m4">
+<div id="dashboard" align="middle">
+  <div class="row valign-wrapper">
+    <div id="card-small" class="card small hoverable valign col s4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/books.svg">
       </div>
+      <p></p>
+      <div class="divider"></div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Books<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">Acess the contents of this category</a></p>
+        <p><a href="#">Check this category</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Books<i class="material-icons right">close</i></span>
@@ -15,13 +17,15 @@
       </div>
     </div>
 
-    <div class="card small col l3 s4 m4 offset-l1">
+    <div id="card-small" class="card small hoverable valign col s4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/fitness.svg">
       </div>
+      <p></p>
+      <div class="divider"></div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Fitness<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">Acess the contents of this category</a></p>
+        <p><a href="#">Check this category</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Fitness<i class="material-icons right">close</i></span>
@@ -29,13 +33,15 @@
       </div>
     </div>
 
-    <div class="card small col l3 s4 m4 offset-l1">
+    <div id="card-small" class="card small hoverable valign col s4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/arts.svg">
       </div>
+      <p></p>
+      <div class="divider"></div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Arts<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">Acess the contents of this category</a></p>
+        <p><a href="#">Check this category</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Arts<i class="material-icons right">close</i></span>
@@ -43,14 +49,16 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="card small col l3 s4 m4">
+  <div class="row valign-wrapper">
+    <div id="card-small" class="card small hoverable valign col s4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/education.svg">
       </div>
+      <p></p>
+      <div class="divider"></div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Education<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">Acess the contents of this category</a></p>
+        <p><a href="#">Check this category</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Education<i class="material-icons right">close</i></span>
@@ -58,13 +66,15 @@
       </div>
     </div>
 
-    <div class="card small col l3 s4 m4 offset-l1">
+    <div id="card-small" class="card small hoverable valign col s4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/experience.svg">
       </div>
+      <p></p>
+      <div class="divider"></div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Experience<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">Acess the contents of this category</a></p>
+        <p><a href="#">Check this category</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Experience<i class="material-icons right">close</i></span>
@@ -72,13 +82,15 @@
       </div>
     </div>
 
-    <div class="card small col l3 s4 m4 offset-l1">
+    <div id="card-small" class="card small hoverable valign col s4">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="imgs/others.svg">
       </div>
+      <p></p>
+      <div class="divider"></div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Others<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">Acess the contents of this category</a></p>
+        <p><a href="#">Check this category</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Others<i class="material-icons right">close</i></span>
@@ -88,8 +100,21 @@
   </div>
 </div>
 </template>
+
+<script >
+  
+</script>
+
 <style lang="sass">
-.card {
-  padding:100px;
-}
+  #card-small {
+    width: 220px;
+    height: 350px;
+    margin: 15px;
+  }
+
+  #dashboard {
+    margin: 0 auto;
+    width: 85%;
+    padding: 25px;
+  }
 </style>
