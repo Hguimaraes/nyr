@@ -13,6 +13,15 @@
     <div id="app"></div>
     <script src="/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="/bower_components/materialize/dist/js/materialize.min.js" type="text/javascript"></script>
+    <script src="/src/jsPlugins_materialize.js"></script>
     <script src="dist/build.js"></script>
+    <script>
+      // Jquery stuff
+      (function($){
+        $(function(){
+          $('.button-collapse').sideNav();
+        }); // end of document ready
+      })(jQuery); // end of jQuery name space
+    </script>
   </body>
 </html>
