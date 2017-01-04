@@ -18,7 +18,7 @@
           <li class="tab"><a href="#education">Education</a></li>
           <li class="tab"><a class="activate" href="#dashboard">Dashboard</a></li>
           <li class="tab"><a href="#experience">Experience</a></li>
-          <li class="tab"><a href="#fitness">Fitness</a></li>
+          <li class="tab"><a href="#fitness">Fitness & Health</a></li>
           <li class="tab"><a href="#others">Others</a></li>
         </ul>
       </div>
