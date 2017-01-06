@@ -23,7 +23,7 @@
             status: false
           },{
             id:'item02',
-            description: 'A concert with a band/artist that I really like but never seen',
+            description: 'A concert with a band/artist that I really like but never saw',
             status: false
           },{
             id:'item03',
@@ -77,6 +77,10 @@
             id:'item015',
             description: 'Talk and understanding someone with a different political opinion than mine',
             status: false
+          },{
+            id:'item016',
+            description: 'Go to meetups or maker spaces',
+            status: true
           }
         ]
       }

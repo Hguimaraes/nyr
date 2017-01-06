@@ -2,7 +2,6 @@
   <div id="app">
   	<navbar></navbar>
   	<main>
-  		<dashboard></dashboard>
   		<arts></arts>
   		<books></books>
   		<education></education>
@@ -15,7 +14,6 @@
 
 <script>
 import Navbar from './components/commons/navbar.vue'
-import Dashboard from './components/Dashboard.vue'
 import Arts from './components/Arts.vue'
 import Books from './components/Books.vue'
 import Education from './components/Education.vue'
@@ -26,7 +24,7 @@ import Others from './components/Others.vue'
 export default {
   name: 'app',
   components: {
-    Navbar, Dashboard, Arts, Books, Education, Experience, Fitness, Others
+    Navbar, Arts, Books, Education, Experience, Fitness, Others
   }
 }
 </script>

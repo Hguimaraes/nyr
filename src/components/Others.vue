@@ -43,7 +43,7 @@
             status: false
           },{
             id:'item07',
-            description: 'Save R$2000,00',
+            description: 'Save R$2500,00',
             status: false
           },{
             id:'item08',

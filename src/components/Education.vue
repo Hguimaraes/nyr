@@ -87,7 +87,7 @@
             status: false
           },{
             id:'item018',
-            description: 'Complete at leats 5 MOOCs',
+            description: 'Complete at least 5 MOOCs',
             status: false
           },{
             id:'item019',

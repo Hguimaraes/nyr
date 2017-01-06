@@ -19,7 +19,7 @@
         items : [
           {
             id:'item01',
-            description: 'Finish the year with 70 kg and less than 10% BF',
+            description: 'Finish the year with 75 kg and less than 10% BF',
             status: false
           },{
             id:'item02',
@@ -44,6 +44,10 @@
           },{
             id:'item07',
             description: "See the doctor more often",
+            status: false
+          },{
+            id:'item08',
+            description: "Sleep at least 6h/day for a year",
             status: false
           }
         ]

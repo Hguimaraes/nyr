@@ -27,7 +27,7 @@
             status: false
           },{
             id:'item03',
-            description: 'Finish a MOOC about Arts',
+            description: "Complete the 'Modern Art & Ideas' MOOC",
             status: false
           }
         ]
