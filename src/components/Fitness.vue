@@ -23,7 +23,7 @@
             status: false
           },{
             id:'item02',
-            description: 'Run 600 km in a year',
+            description: 'Run 600 km',
             status: false
           },{
             id:'item03',

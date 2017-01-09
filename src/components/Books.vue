@@ -19,7 +19,7 @@
         items : [
           {
             id:'item01',
-            description: 'Memórias póstumas de Brás Cubas - Machado de Assis',
+            description: 'The Posthumous Memoirs of Bras Cubas - Machado de Assis',
             status: false
           },{
             id:'item02',
@@ -27,15 +27,15 @@
             status: false
           },{
             id:'item03',
-            description: 'Final do Jogo - Julio Cortázar',
+            description: 'End of the Game and Other Stories - Julio Cortázar',
             status: false
           },{
             id:'item04',
-            description: 'Memórias do Subsolo - Fiodor Dostoievski',
+            description: 'Notes from Underground - Fiodor Dostoievski',
             status: false
           },{
             id:'item05',
-            description: 'Ensaio sobre a cegueira - José Saramago',
+            description: 'Blindness - José Saramago',
             status: false
           },{
             id:'item06',
