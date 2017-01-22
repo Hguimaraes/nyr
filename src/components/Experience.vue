@@ -36,7 +36,7 @@
           },{
             id:'item05',
             description: 'Blood donation',
-            status: false
+            status: true
           },{
             id:'item06',
             description: 'Doing or saying one kind thing a day for an entire year',
