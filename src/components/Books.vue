@@ -20,7 +20,7 @@
           {
             id:'item01',
             description: 'The Posthumous Memoirs of Bras Cubas - Machado de Assis',
-            status: false
+            status: true
           },{
             id:'item02',
             description: 'Quincas Borba - Machado de Assis',
@@ -40,7 +40,7 @@
           },{
             id:'item06',
             description: 'The Subterraneans - Jack Kerouac',
-            status: false
+            status: true
           },{
             id:'item07',
             description: 'Big Sur - Jack Kerouac',
