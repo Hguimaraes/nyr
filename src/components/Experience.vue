@@ -24,7 +24,7 @@
           },{
             id:'item02',
             description: 'A concert with a band/artist that I really like but never saw',
-            status: false
+            status: true
           },{
             id:'item03',
             description: "Go to a new bar or nightclub that I've always eyed",
