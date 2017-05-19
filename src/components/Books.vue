@@ -52,11 +52,11 @@
           },{
             id:'item09',
             description: 'First Third & Other Writings - Neal Cassady',
-            status: false
+            status: true
           },{
             id:'item010',
             description: 'Howl - Allen Ginsberg',
-            status: false
+            status: true
           },{
             id:'item011',
             description: 'Junky - William S. Burroughs',

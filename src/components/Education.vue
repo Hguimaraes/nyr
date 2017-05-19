@@ -36,7 +36,7 @@
           },{
             id:'item05',
             description: 'Learn about Amazon webservices and how to use for Big data, Data Science and Deep Learning',
-            status: false
+            status: true
           },{
             id:'item06',
             description: 'Learn Lua (Programming Language)',
