@@ -24,7 +24,7 @@
           },{
             id:'item02',
             description: 'Read 150 papers',
-            status: false
+            status: true
           },{
             id:'item03',
             description: 'Study about cryptography and Cyber secutiry',
@@ -40,15 +40,15 @@
           },{
             id:'item06',
             description: 'Learn Lua (Programming Language)',
-            status: false
+            status: true
           },{
             id:'item07',
             description: 'Do more projects with C++ and Python',
-            status: false
+            status: true
           },{
             id:'item08',
             description: 'More DIY proejcts using Arduino, Raspberry PI and/or Intel Galileo',
-            status: false
+            status: true
           },{
             id:'item09',
             description: "Get the 'Cambridge English: Advanced (CAE)' certificate",
@@ -60,7 +60,7 @@
           },{
             id:'item011',
             description: 'Study about Buddhism',
-            status: false
+            status: true
           },{
             id:'item012',
             description: 'Learn a new language',
@@ -68,7 +68,7 @@
           },{
             id:'item013',
             description: 'Study the basics of Stock Market',
-            status: false
+            status: true
           },{
             id:'item014',
             description: 'Write a killing resume',

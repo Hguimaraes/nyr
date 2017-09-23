@@ -44,11 +44,11 @@
           },{
             id:'item07',
             description: 'Save R$2500,00',
-            status: false
+            status: true
           },{
             id:'item08',
             description: 'Travel more',
-            status: false
+            status: true
           }
         ]
       }

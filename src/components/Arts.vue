@@ -28,7 +28,7 @@
           },{
             id:'item03',
             description: "Complete the 'Modern Art & Ideas' MOOC",
-            status: false
+            status: true
           }
         ]
       }

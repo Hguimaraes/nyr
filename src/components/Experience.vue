@@ -75,8 +75,8 @@
             status: false
           },{
             id:'item015',
-            description: 'Talk and understanding someone with a different political opinion than mine',
-            status: false
+            description: 'Talk and understand someone with a different political opinion than mine',
+            status: true
           },{
             id:'item016',
             description: 'Go to meetups or maker spaces',

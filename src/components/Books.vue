@@ -44,7 +44,7 @@
           },{
             id:'item07',
             description: 'Big Sur - Jack Kerouac',
-            status: false
+            status: true
           },{
             id:'item08',
             description: 'Vision of Cody - Jack Kerouac',
