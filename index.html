@@ -1,26 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 <html lang="en">
-  <head>
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Hguimaraes - New Year's Resolution</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
-  	<link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.min.css" media="screen,projection">
-  </head>
-  <body bgcolor="#f5f5f5">
-    <div id="app"></div>
-    <script src="./bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
-    <script src="./bower_components/materialize/dist/js/materialize.min.js" type="text/javascript"></script>
-    <script src="dist/build.js"></script>
-    <script>
-      // Jquery stuff
-      (function($){
-        $(function(){
-          $('.button-collapse').sideNav();
-        }); // end of document ready
-      })(jQuery); // end of jQuery name space
-    </script>
-  </body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">New Year's Resolution (2018)</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">NYR</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">NYR</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <!-- Data Science Main card --> 
+                <div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__media mdl-cell mdl-cell--12-col-tablet">
+                        <img class="article-image" src=" images/example-blog01.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col">
+                        <h2 class="mdl-card__title-text">Data Science Journey</h2>
+                        <div class="mdl-card__supporting-text padding-top">
+                            <span>Starting at Jan, 2018</span>
+                        </div>
+                        <div class="mdl-card__supporting-text no-left-padding">
+                            <p>The goal of this resolution is to build a solid foundation on the disciplines related to Data Science, focusing on Machine Learning and Deep Learning. Become more activate on Kaggle Competitions and build a strong Portfolio are also targets for this year. Click in read more for full description.</p>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arts Card -->
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work01.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Arts</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        The objective is to develop or improve activities related to visual, auditory or artworks by expressing the my imaginative or technical skills.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Books Card -->
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work07.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Books</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Books list to read this year covering a large variety of genres <br/><br/><br/>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Education Card -->
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work02.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Education</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Goals related to professional and academic knowledge. <br/><br/><br/>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Fitness Card -->
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work03.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Fitness</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Goals related to health, fight against sedentary lifestyle and feeling good physically and mentally. <br/><br/><br/><br/>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Experience Card -->
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work04.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Experience</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Resolutions more related to experience more diverse situations in life. <br/><br/><br/><br/><br/>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+
+                <!-- Miscellaneous Card -->
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images/example-work08.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Miscellaneous</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Uncategorized goals or that could be in more then one section.<br><br><br><br><br>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-example01.html">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Hguimaraes - New Year's Resolution (2018)</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="http://hguimaraes.me/">Blog</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
 </html>
