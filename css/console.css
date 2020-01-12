@@ -1,0 +1,87 @@
+body {
+	font-family: 'Source Code Pro', monospace;
+	background-color: black;
+}
+
+span {
+	color: green;
+}
+
+.ascii-art {
+	color: #c0c0c0;
+    white-space: pre;
+    font-size: 9px;
+    text-align: center;
+}
+
+.ascii-table {
+	color: #c0c0c0;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.author {
+	color:;
+}
+
+.author:before {
+	content:"@";
+}
+
+.author:after {
+	content: " \2192";
+}
+
+.git-branch {
+	color:#800000;
+}
+
+.git-branch:before {
+	content: "git:(";
+	color:#5f5fff;
+}
+
+.git-branch:after {
+	content: ")";
+	color:#5f5fff;
+}
+
+.linux-path {
+	color: #00ffff;
+}
+
+.linux-path:before {
+	content: "[~/";
+}
+
+.linux-path:after {
+	content: "]";
+}
+
+.exec {
+	color:white;
+}
+
+.text-prof {
+	color: white;
+}
+
+.text-acad {
+	color: green;
+}
+
+.text-books {
+	color: blue;
+}
+
+.text-person {
+	color: red;
+}
+
+.goals-list {
+	color: #808080;
+}
+
+.update-mark {
+	list-style-type: none;
+}
